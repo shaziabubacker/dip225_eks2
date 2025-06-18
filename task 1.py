@@ -1,6 +1,6 @@
 from openpyxl import load_workbook
 
-wb = load_workbook('sagatave_eksamenam.xlsx')
+wb = load_workbook('sagatave_eksamenam (1).xlsx')
 ws = wb['Lapa_0']
 max_row = ws.max_row
 
@@ -14,3 +14,6 @@ for row in range(2, max_row + 1):
         count += 1
 
 print(count)
+
+
+
